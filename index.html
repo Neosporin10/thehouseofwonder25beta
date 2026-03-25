@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amber Cruise | The House of Wonder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">AMBER CRUISE</div>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Mission</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">🌙</button></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div class="cover-photo-container">
+      <img src="belong.jpg" alt="Amber Cruise Cover" class="cover-photo">
+      <div class="cover-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <h1>The House of Wonder</h1>
+      <p>A magical, safe, and nurturing environment where everyone is treated like family.</p>
+
+      <div class="hero-socials">
+        <a href="https://www.facebook.com/groups/808139624077316/" target="_blank" title="Facebook Community"><i class="fab fa-facebook"></i></a>
+        <a href="https://youtube.com" target="_blank" title="YouTube Content"><i class="fab fa-youtube"></i></a>
+        <a href="mailto:thehouseofwonder25@gmail.com" title="Email Us"><i class="fas fa-envelope"></i></a>
+      </div>
+
+      <a href="#about" class="btn">Discover the Wonder</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p class="mission-text">At The House of Wonder, our mission is simple: to provide a "Wonder-Filled" life full of work, play, proper care, and companionship.</p>
+    </div>
+  </section>
+
+  <section class="info-grid">
+    <div class="info-card">
+      <i class="fas fa-clock"></i>
+      <h3>Service Hours</h3>
+      <p>Monday — Saturday</p>
+      <p>8:00 AM – 6:00 PM</p>
+    </div>
+    <div class="info-card">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Location</h3>
+      <p>Newport, VA 24128</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Connect</h2>
+      <form id="contact-form">
+        <input type="text" id="user-name" placeholder="Name" required>
+        <input type="email" id="user-email" placeholder="Email" required>
+        <textarea id="user-message" placeholder="How can we help you?" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Amber Cruise | thehouseofwonder25.org</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
